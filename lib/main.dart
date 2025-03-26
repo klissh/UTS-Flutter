@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'pages/schedule_detail_page.dart';
-import 'models/schedule_model.dart'; // Impor model yang benar
+import 'models/schedule_model.dart';
+import 'pages/splash_screen.dart'; 
+
 
 void main() => runApp(const MyApp());
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         brightness: Brightness.dark,
       ),
-      home: const MainPage(),
+      home: const SplashScreen(), // Ganti dengan SplashScreen
     );
   }
 }

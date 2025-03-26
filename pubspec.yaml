@@ -30,6 +30,7 @@ flutter:
     - images/sapi.jpg
     - images/cake.jpg
     - images/pizza.jpg
+    - images/VoChrono.png
     
   fonts:
     - family: Oswald  # Nama font yang akan digunakan di kode
